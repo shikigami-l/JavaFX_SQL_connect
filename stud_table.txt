@@ -1,0 +1,15 @@
+desc stud;
+ Name                                      Null?    Type
+ ----------------------------------------- -------- ----------------------------
+ SID                                                NUMBER(5)
+ SNAME                                              VARCHAR2(30)
+ MARK                                               NUMBER(3)
+ GRADE                                              VARCHAR2(5)
+
+
+
+ select * from stud;
+
+       SID SNAME                                MARK GRADE
+---------- ------------------------------ ---------- -----
+       101 Levi                                   95 O
